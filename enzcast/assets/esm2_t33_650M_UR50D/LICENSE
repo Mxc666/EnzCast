@@ -1,0 +1,6 @@
+MIT License
+
+Copyright (c) Meta Platforms, Inc. and affiliates.
+
+The configuration and tokenizer files in this directory correspond to
+facebook/esm2_t33_650M_UR50D (Lin et al., Science 2023), distributed under the MIT License.

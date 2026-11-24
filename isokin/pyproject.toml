@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enzcast-isokin"
+version = "0.2.0"
+description = "Isoform-resolved Bayesian kinetic calibration with Recon3D stoichiometry and EnzCast priors"
+requires-python = ">=3.10"
+dependencies = [
+  "anndata",
+  "numpy",
+  "pandas",
+  "pyro-ppl",
+  "scipy",
+  "torch",
+]
+
+[project.scripts]
+enzcast-isokin = "enzcast_isokin.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

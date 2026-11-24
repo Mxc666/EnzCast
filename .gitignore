@@ -1,24 +1,9 @@
-# Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.egg-info/
-dist/
+.pytest_cache/
+.ruff_cache/
 build/
-
-# Model checkpoints (hosted on Hugging Face Hub)
-models/*.pt
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
+dist/
 *.log
-wandb/
+.DS_Store
